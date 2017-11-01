@@ -60,3 +60,4 @@ Dev-Sim/Library/unity default resources
 Dev-Sim/Library/unity editor resources
 Dev-Sim/Library/FacebookSDK/
 Dev-Sim/Library/UnityAssemblies/
+*.log
