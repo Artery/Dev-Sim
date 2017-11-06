@@ -1,0 +1,134 @@
+Name
+
+Bereich
+	Desktop-Anwendung
+	App
+	Website
+
+Plattform (erstmal nur eine, später combined)
+	Desktop-Anwendung: 	Windows, MacOS
+	App: 				Android, iOS
+	Website:			?Desktop, Mobile?
+	
+(addtional) Components
+	Desktop-Anwendung: 	Datenbank (offline/online), Backend
+	App: 				Datenbank (offline/online), Backend
+	Website:			Datenbank, Backend
+	
+Frameworks (Technologies)
+	Desktop-Anwendung:
+		Frontend: 	Swing (Java), WinForms (C#), WPF (C#)
+		Database: 	MySQL (SQL), MongoDB (C++)
+		Backend: 	ASP.NET (C#), Node.js (JS)
+
+	App:
+		Frontend:	Android SDK (Java), iOS SDK (C++), ReactNative (JS)
+		Database:	MySQL (SQL), MongoDB (C++)
+		Backend:	Node.js (JS), Play (Java)
+		
+	Website:
+		Frontend:	Angular (HTML/CSS/JS), Bootstrap (HTML/CSS/JS)
+		Database:	MySQL (SQL), MongoDB (C++)
+		Backend:	Node.js (JS), RubyOnRails (Ruby)
+		
+Specification (Effort) (more Effort = more Quality and more WorkingEffort)
+	?Ist das alles?
+	per Plattform
+		?ratio (standard is 1/n)?
+	per Component (including "Frontend")
+		low, middle, high
+	
+	Product-Properties (jeweils low, middle, high)
+		Modifiability 	(Engineering)
+		Portability		(Engineering&Design)
+		Documentation 	(Common)
+		
+		Performance 	(Engineering)
+		Robustness 		(Engineering)
+		Usability 		(Design)
+		Security 		(Engineering)
+		Correctness		(Engineering) (Freedom from defects)
+		?System-Requirements?
+		???
+		
+	?Project-Areas
+		Analysis
+		Development
+		Testing?
+	
+		
+Tools
+	IDEs
+	Code-Editors
+	Database-Tools
+	Graphic-Tools
+	Bugtracker
+	Revision-Tools
+	?Communication-Tools?
+
+Development-Framework
+	Scrum
+	V-Model
+	Watterfall-Model
+	(Kanban)
+	(XP)
+	
+Roles (jeder Worker kann mehrere Rollen haben)
+	Jeder Worker wird mit einem Prozentsatz seiner Zeit für die jeweiligen Rollen eingeteilt
+	Z.B. Entwickler1 soll 10% seiner Zeit als ProjectManager arbeiten, 50% als Developer (er hat dann noch 40% für andere Projekte)
+	Jeder eingesetzte Worker liefert eine gewisse Menge an Arbeit, 
+	diese wird bestimmt durch die Fähigkeiten des Workers im jeweiligen Einsatzgebiets (auf Grundlage der Base-Performance, 
+	zusammen mit der eingesetzten Zeit
+	(Evtl ist das auch eine EstimationRange, abhängig vom ProjectManager und evtl Erfahrung des Entwicklers)
+	Management:
+		1	Project-Manager	
+	Engineering:
+		1-*	Developer
+	Design:
+		0-* Designer
+	?QA:
+		0-* Tester?
+	
+
+WorkingEffort
+	Bereich (hat Base-Effort) (Desktop-Anwendung schwieriger als Website)
+	Plattform (für jede weitere)
+	Components (jede Component hat Base-Effort)
+	Framework (manche Frameworks benötigen mehr andere weniger zusätzlichen Effort)
+	
+	Specification
+		erhöht Base-Effort der vorangegangenen Punkte
+		Product-Properties erzeugen zusätzlichen Effort
+		
+	?Development-Framework?
+	
+	Bug-Prediction (Bugs)
+		Bugs treten immer auf und erhöhen den WorkingEffort
+		Je mehr Komponenten und je aufwendiger, desto höhere Bugrate
+		Je besser die Bug-Prediction, desto genauer die zusätzliche Range
+	
+	=> ergibt festen Startwert
+	=> Erfahrung/Skill des ProjectManagers und Erfahrung der Entwickler bestimmen angezeigte EstimationRange
+
+Costs
+	Arbeitszeiten der Worker * Lohn
+	Kosten für Tools
+	=> Endkosten
+	
+	=> Estimation basierend auf WorkingEffort Estimation
+
+Duration
+	WorkingEffort / vorraussichtlich geleistete Arbeit der Worker
+	
+	=> Estimation basierend auf WorkingEffort Estimation
+
+Quality
+	
+	
+	
+Budget planning
+	Allocating Budget based on Costs-Estimation (Bei hauseignene Projekte (ohne Kunde etc.) ist das ggf. weniger wichtig. Kann aber zu finanziellen Problemen führen.
+		Bei Kunden Projekten ist dies sehr wichtig, ggf. müssen weitere Kosten selbst übernommen werden, ohne dass der Kunde dafür zahlt, des Weiteren beeinflusst es auch die Kundenzufriedenheit)
+	Time framing based on Duration-Estimation (Bei hauseignene Projekte (ohne Kunde etc.) ist dies keine Pflicht, 
+		hilft aber eine Übersicht zu behalten und Entwicklungen besser einschätzen zu lönnen.
+		Bei Kunden Projekten ist das entscheidend für Kundenzufriedenheit und erfolgreichen Abschluss (Projektentzug oder Strafen können Folge von schlechter Einschätung sein)

@@ -1,0 +1,61 @@
+Arbeitstitel
+
+Kosten, es gibt initial abgeschätzte Kosten und endgültige Kosten 
+Kosten steigen durch Einsatz von workern, also im Endeffekt durch den Arbeitsaufwand
+Kosten steigen bedingt durch Einsatz von Tools, z. B. Weil spezielle dafür extra gekauft /lizenziert werden müssen 
+Initiale Kosten geben nur Überblick. Estimation hängt zum einen von der Erfahrung der worker ab, der Erfahrung der company mit solchen Projekten und der Fähigkeiten des Projektmanagers 
+
+Hat Dauer, wird bestimmt durch initialen Arbeitsaufwand und kann abhängig von Vertrag mit Kunden sein, z. B. festgelegte Milestones 
+Dauer kann mit slack time gestreckt werden. Also man hat estimation und sagt okay plus x slack time, verringert Wahrscheinlichkeit milestones oder deadlines zu reißen, kann Kunden aber zu lange dauern 
+Dauer wird einmal initial angegeben
+Und wird während Verlauf neu estimated
+Estimation hängt wie Kosten von worker und company Erfahrung ab
+Kunden wollen möglichst viel, möglichst schnell, deswegen muss man abwägen z. B. wie viel slack time etc 
+
+Projekt kann deadline und oder milestones haben. 
+Beides kann gerissen werden mit unterschiedlichen Folgen. 
+Wenn Kunde involviert, erst verspätete Zahlung für milestones oder Vertragsstrafe oder Projektentzug. Kann Kunden verärgern, schließen keine Verträge mehr ab oder verhandeln in Zukunft härter 
+Schadet der Reputation, wenn Kunde verärgert oder öfter vorkommt 
+
+X worker arbeiten dran
+Diese werden für die verschiedenen verteilt. Jeder Worker hat Arbeits Kontingent, einfach wie viel Zeit er pro Woche hat 
+
+Hat Bereich z. B. App, Website oder Desktop Anwendung
+
+Hat verschiedene Komponenten z. B. Datenbank, Server, cloud etc
+
+Benutzt verschiedene Technologien
+
+Setzt und oder erfordert verschiedene Tools ein
+
+Wird mit Entwicklungsmethode x entwickelt 
+Entwicklungsmethode bestimmt wann welche Phase entwickelt wird, hierbei kann festgelegt werden auf welche Phasen Fokus liegen soll 
+
+Hat spec, kann angepasst werden z. B. durch Kundenanfragen
+Verändert Arbeitsaufwand, kann abgelehnt werden, verärgert aber Kunden, kann aber auch mehr Einnahmen oder bessere Qualität bedeuten, da z. B. Kunde auch für zahlen würde 
+
+Spec, Bereich und Komponenten bestimmen Arbeitsaufwand
+Tools beeinflussen Arbeitsaufwand, gute Tools gleich weniger Aufwand, sofern Mitarbeiter damit vertraut
+Gute Planung verringert Aufwand
+Auftretende bugs erhöhen Aufwand, bugs werden durch worker erzeugt. Bugs werden zum Teil während Entwicklung gefixt, also nur Arbeitsaufwand direkt erhöhen. Bugs können aber auch erst während Testphase auftreten und erhöhen dann Arbeitsaufwand, wenn sie gefixt werden sollen, müssen aber nicht. Bugs verringern Qualität des Produkts. Versteckte Bugs werden, wenn nicht gefunden nach Abschluss oder während Benutzung sichtbar und können nachträglich gefixt werden, kostet, aber erhöht Qualität des Produkts
+Kommunikationsfähigkeit des Teams hat Einfluss auf Arbeitsaufwand 
+
+Qualität des Produkts wird bestimmt durch Anzahl Bugs, welche diese verringern 
+Wie gut die worker die eingesetzten Technologien beherrschen 
+Evtl auch durch eingesetzte Komponenten
+
+
+Produkteigenschaften müssen festgelegt werden, ob mehr oder weniger Aufwand in Modifizierbarkeit, portability und documentation gesteckt werden soll 
+Erfahrung beeinflusst Maßgeblich die beiden ersten, documentation wird nur durch Aufwand beeinflusst 
+Mehr Aufwand führt zu höheren Arbeitsaufwand, aber verbesserten Eigenschaften im jeweiligen Bereich, oder umgekehrt. 
+Vorausschauend planen macht hier Sinn. Aber selbst wenn Produkt direkt verkauft wird, kann sein, dass Kunde mit neuem Auftrag für das Produkt kommt. 
+
+Projekt hat eine Fehleranfälligkeit 
+Welche die bugrate erhöht.
+Diese Fehleranfälligkeit wird durch Anzahl der Komponenten und Plattformen bestimmt und insgesamt Projektgröße
+Sowie den Aufwand für Modifizierbarkeit und portability 
+Kommunikationsfähigkeit des Teams beeinflusst diesen wert
+
+Projekt hat Kundenzufriedenheit was angibt wie sehr er sich auf Änderungen, deadline Verschiebungen etc einlässt
+
+Projekt wird nach Abschluss zu Produkt.

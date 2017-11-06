@@ -1,0 +1,62 @@
+Name
+Alter
+Geschlecht
+(Ethnie)
+
+Abschluss
+Abi
+Fachausbildung
+Bsc
+Msc
+PhD
+(self taught)
+
+Evtl sogar Fachrichtung, genauer oder grob, z. B. einfach nur Computer Science, Design, Wirtschaft oder Combined (Kombi aus zwei Sachen)
+
+Erfahrung in Jahren
+Dabei Bereich, also engineering, design etc
+Und in Rolle 
+Und auch pro Technologie
+
+Kenntnisse
+Aufgeteilt in die Bereiche Engineering, design und Management
+Unter Kategorien wie technology, tools usw. Evtl ersetzt diese Unterteilung die obere
+In den Kategorien gibt's dann verschiedene Kenntnisse wie z.b. C++, Nodejs, oder auch usability und Teamleitung oder so
+
+Attribute bestimmen Grundproduktivität
+Arbeits-Geschwindigkeit (ist evtl im oberen oder das obere ergibt sich aus mehreren)
+Stress Resistenz
+Lernbereitschaft (neue Technologien zu erlernen z. B.) 
+Lerngeschwindigkeit, evtl im oberen integriert 
+Frust Toleranz, wie stark die Produktivität unter der Zufriedenheit leidet 
+Sauberes Arbeiten (gegen Wahrscheinlichkeit bugs zu verursachen)
+Kommunikationsfähigkeit 
+
+Modifizierbarkeit 
+Portability 
+Documentation 
+Je mehr ein worker an so etwas arbeitet, desto erfahrener wird er damit, wodurch der Arbeitsaufwand für diese Produkt Eigenschaften sinkt und die Fehleranfälligkeit weniger dadurch zu nimmt. 
+
+Statuswerte:
+Zufriedenheit 
+Stress (oder umgekehrt) evtl auch hier mit Grundwert, der z. B. nur durch Urlaub abgebaut werden kann, sonst burn out
+Aktuelle Produktivität (sowie Grund-) 
+Evtl Wahrscheinlichkeit bugs zu verursachen 
+Kann zu Kündigung führen 
+
+Eigenschaften/Traits: besitzt man von Anfang an und kann man wie in tw:w2 dazu bekommen und können mehrstufig sein 
+Z. B. Hoch motiviert (höherer Produktivität Grundwert oder diese steigt schneller) 
+Geek
+Introvertiert (Malus auf Kommunikation, aber evtl bonus aus was anderes 
+Faul
+Unpünktlich 
+Fels in der Brandung (höhere Stressresistenz durch zuvor erlebte crunch times) 
+
+Ein worker hat in der Firma eine Rolle z. B. Entwickler oder Projektmanager
+Rolle hat Erfahrungs Modifikator, also junior, -, senior 
+Beeinflusst Zufriedenheit und Gehalt 
+Worker können befördert und degradiert werden, das hat Einfluss auf alle anderen Worker und das Firmen Klima 
+Worker hat Angestellten Verhältnis, z. B. Fest angestellt, Freelancer, Praktikant, Azubi etc
+Worker hat ein Gehalt in der Firma, beeinflusst Zufriedenheit 
+Worker hat evtl work life balance package, also z. B. mehr Urlaub, kann also weniger arbeiten, ist dafür aber weniger gestresst und zufriedener
+Diese Dinge sind in Vertrag geregelt, welcher auch Laufzeit beinhaltet (meist dauerhaft)

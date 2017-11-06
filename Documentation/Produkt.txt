@@ -1,0 +1,32 @@
+Namen
+
+Deckt einen bestimmten Bereich für bestimmte Plattformen ab, z. B. App für Android
+
+Hat Kosten, einmal initial die Kosten nach Entwicklungsabschluss
+Und kann weitere Kosten verursachen, z. B. Durch Nachbesserungen oder weil support geleistet oder weiter betrieben
+
+Hat Einnahmen, in dem es nach Abschluss verkauft wird oder Monetarisierung durch Lizenzierung, Werbung etc
+
+Kann unter Projekte haben, also wird für Kunde x modifiziert, was aber nur Aufspaltung ist, Kosten und Einnahmen akkumilieren sich in Produkt
+Wenn unter Projekt abgeschlossen, dann ist das kein neues oder eigenständiges Produkt
+
+Hat Qualität, wird bestimmt durch Entwicklungsergebniss
+Qualität verringert sich im Laufe der Zeit
+Weitere Betreuung verlangsamt den Prozess, aber er steigt ca exponentiell, irgendwann ist das Produkt einfach outdated
+Kann sich evtl im Verlauf auch durch auftretende Bugs verringern.
+
+Falls vertraglich geregelt kann es sein, dass selbst verkaufte Produkte nachgebessert werden müssen.
+Oder man bekommt Anfrage und bearbeitet diese evtl auf Kulanz oder neuer Auftrag. Beeinflusst Zufriedenheit von Kunden und Reputation
+
+Kann weiterentwickelt werden z. B. für neue Plattformen oder um Qualität zu verbessern
+Entweder müssen alle migrieren, wenn verbessert für alle Plattformen, kann sein, dass man Kunden verliert. Weil support eingestellt wird. Oder man lässt mehrere Versionen parallel laufen, das sind dann im Endeffekt zwei unterschiedliche Produkte
+-> Hat Version
+
+Produkt hat Eigenschaften
+Modifizierbarkeit, bestimmt Arbeitsaufwand, um Kundenanfragen zum Modifizieren zu bearbeiten oder Verbesserungen vorzunehmen 
+
+Portability, gibt an wie geht es auf andere Plattformen portiert werden kann. Also wie viel Arbeitsaufwand und wie viel die Qualität drunter leidet 
+
+Documentation gibt an wie gut ein Produkt dokumentiert ist, je länger ein Produkt nicht mehr angefasst wird, desto niedriger ist die Start Produktivität der Mitarbeiter. Angesetzte Mitarbeiter nehmen langsamer bzw. Schneller an Produktivität zu, je nach Güte der documentation 
+Besonders neue Mitarbeiter leiden stärker hier drunter 
+Produkt merkt sich wann welcher Mitarbeiter zuletzt dran gearbeitet hat, im das umzusetzen

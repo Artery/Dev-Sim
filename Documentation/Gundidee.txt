@@ -1,0 +1,75 @@
+Grundidee: Aufbau und Leitung eines Software Unternehmens
+Mit Game Dev Tycoon (GDT) als Vorbild 
+
+
+Spieler: Entwickler und Leiter der Firma, wie in GDT
+
+
+Start als Startup, man selbst mit Kumpels (0-2 Kumpels)
+Entwicklung bis hin zu großem Tech Unternehmen 
+
+
+(Mit-)Arbeiter:
+Verschiedene Rollen, Entwickler, Designer, Projektmanager, evtl bis hin zu Marketing, Vertrieb, HR, Controlling etc. 
+
+Besitzt verschiedene Fähigkeiten, z. B. Programmieren in verschiedenen Sprachen, entwickeln in mit verschiedenen Technologien/Frameworks. Evtl bis hin zur Erfahrung im Arbeiten mit unterschiedlicher Software
+Welche verschieden gut ausgeprägt sind und verbessert werden können, evtl kann man auch über Zeit einrosten, Produktivität muss erst nach Zeit dich wieder aufbauen, wenn lange nicht mit gearbeitet, siehe HoI4
+
+Hat verschiedene Eigenschaften, positiv wie negativ. Z. B. lernt schneller neue Sprache oder weniger produktiv unter Stress, oder verlangt immer mehr als Durchschnittsgehalt
+Evtl auch Eigenschafts Gewinne wie bei TW:W2
+
+Hat verschiedene Attribute 
+
+Hat verschiedene Bedürfnisse 
+
+
+Projekte:
+Verschiedene Bereiche z. B. App, Website, Desktop Anwendung, evtl sogar Spiele
+
+Werden für eine oder mehrere Plattformen entwickelt, z. B. iOS/Android, Windows/Linux, Browser etc.
+
+Beinhalten verschiedene Komponenten, z. B. Website mit Datenbank und Server etc. 
+
+Werden mit verschiedenen Technologien entwickelt, abhängig von Bereich und Plattform. Z. B. Sprache Java/C++, NetFramework, Nodejs usw.
+
+Benötigt gewissen Aufwand in verschiedenen Bereichen z. B. Entwicklung und Design oder Management. Bestimmt quasi wie lange bzw. wie viel Arbeitskraft gebraucht wird.
+Daraus wird auch die Dauer generiert, also Aufwand im Vergleich zu den eingesetzten Leute. 
+Bugs entstehen während der Entwicklung und bei fehlender Erfahrung muss z. B. was neu entwickelt werden 
+
+Wird mit einer Entwicklungsmethode entwickelt, z. B. Scrum oder Wasserfall
+
+Muss geplant werden, wann was gemacht wird, wie viel Zeit jeweils dafür aufgebracht werden soll 
+Entwicklungsmethode und Verträge haben darauf Einfluss 
+
+Werden für einen Kunden entwickelt, also jemand Fremdes ist involviert und gibt z. B. Meilensteine vor. Oder eigenes Produkt 
+
+Projektarten, z. B. bei Abschluss Verkauf an Kunden, Dev Ops, game as a service, Betreuung durch Support, freemium model oder Einnahmen nur durch Werbung etc
+Evtl auch sowas wie early access etc 
+Können also nach Abschluss zu Produkten werden, die z.b. Gepflegt werden müssen, oder erweitert, angepasst werden für andere Kunden etc
+
+
+Produkte:
+Entstehen aus Projekten und müssen nach der Entwicklung weiterhin gepflegt werden. Z. B. durch einfachen Support, ständigen Erweiterungen etc
+
+Mit Produkten lässt sich weiterhin Geld verdienen z. B. durch dauerhafte Monetarisierung z. B. durch geschaltete Werbung oder inApp Käufen 
+Produkte können aber auch lizenziert oder endgültig verkauft werden 
+Beim Lizenzieren muss das Produkt ggf. Aber angepasst werden 
+
+
+Umfangreiche Statistiken zu ALLEM! 
+
+
+Firmen Attraktivität 
+Wie erfolgreich waren z. B. die Projekte, wie ist die Stimmung, was für Leute arbeiten da?
+
+
+Bewerber und Einstellungen 
+Fest Angestellte, Freelancer, Praktikanten, Werkstudenten
+Bewerbungsgespräche
+
+
+Kunden 
+Haben Eigenschaften, wie z. B. Sehr ungeduldig, chaotisch also ändert spec oft während der Entwicklung, oder großzügige Bezahlung etc
+
+Können Projekte im Auftrag geben, also entwickelt uns X, oder werden geworben: wir haben Produkt Y wollt ihr das haben?
+Ggf. muss man Anpassungen machen

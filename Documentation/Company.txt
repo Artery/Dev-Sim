@@ -1,0 +1,25 @@
+Namen
+
+Reputation / Ruf, evtl eigener Punkt. Steigt durch gute und abgeschlossene Projekte, beeinflusst Anzahl und Güte der Bewerbungen und Willigkeit von Bewerbern dort zu arbeiten, z. B. aufgrund hoher Reputation kann Worker für weniger eingestellt werden, als mit niedriger 
+
+Arbeitsklima bestimmt Zufriedenheit der worker, wird durch worker und Projektverläufe bestimmt sowie work life Angebote 
+
+Hat Spezialisierung, was im Endeffekt traits sind wie bei den workern, z. B. Viele App Projekte geben app trait, z. B. gut in App Entwicklung oder eben schlecht 
+Spezialisierungen haben globalen Einfluss auf Worker und Projekte 
+
+Kreditwürdigkeit, bestimmt durch Reputation, Finanzlage und Kredithistorie 
+
+Kann Leute ausbilden, ist nur simpel, Worker die wenig kosten und sich während Ausbildung verbessern und dann übernommen werden können, brauchen Mentor, letztlich nur spezielles Angestellten Verhältnis, aber braucht dieses Toggle 
+
+Hat x tools, evtl auch x Hardware 
+
+Hat x Ausgaben 
+Hat x Einnahmen 
+
+Hat x angestellte Worker
+
+Kann worker auf Schulungen schicken, kostet, worker arbeiten nicht oder weniger, lernen aber 
+
+Entwickelt x Projekte
+
+Bietet x Produkte an

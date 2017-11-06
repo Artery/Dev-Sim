@@ -1,0 +1,16 @@
+Grundwert (zufällig)
+Hohe Arbeits-Geschwindigkeit erhöht, niedrige verringert 
+Sauberes Arbeiten erhöht 
+Bug Wahrscheinlichkeit senkt, wird aber ebenfalls durch sauberes Arbeiten verringert, aber durch Stress erhöht 
+Stress senkt Produktivität 
+Stress Resistenz verringert Senkung durch Stress
+Zufriedenheit erhöht Produktivität 
+Frust Toleranz verringert Malus bei Unzufriedenheit
+Erfahrung erhöht
+Kommunikationsfähigkeit beeinflusst Produktivität abhängig von der Teamgröße
+Traits können erhöhen oder verringern 
+
+Aktueller Wert ist mindestens Grundwert und hat ein maximal Wert, dieser wird durch verschiedene Grundwert Faktoren und evtl zufällig bestimmt 
+Baut sich auf je länger man an einem Projekt arbeitet 
+Projekt Wechsel senken den aktuellen Wert 
+Viele Aufgaben gleichzeitig senken die Zunahme Geschwindigkeit bis hin zu keiner Steigerung, aber nicht Abbau

@@ -1,0 +1,100 @@
+Name
+Geschlecht
+
+Abschluss
+	Abi
+	Fachausbildung
+	Bsc
+	Msc
+	PhD
+	Hat Fachrichtung Engineering, Design oder Management, oder Combined 
+	Erstmal keinen Einfluss 
+
+Erfahrung in Jahren
+	Dabei Bereich, also engineering, design etc
+	Und in Rolle 
+	Und auch pro Technologie
+
+Kenntnisse
+	Engineering 
+		Programmiersprachen
+		Frameworks
+		Plattformen 
+			App, Website, Server, Datenbank, Desktop, (Konsolen) 
+		Tools
+			IDE, Datenbankverwaltung
+
+	Design
+		Tools 
+		Plattformen
+			App, Website, Desktop, (Konsolen) 
+		Grafikarten 
+			2D, 3D, Animationen
+		Usability
+
+	Management
+		Tools
+		Teamgrößen 
+			klein, Mittel, groß, riesig
+		Projektaufwand 
+
+
+	Allgemein 
+		Tools 
+		Entwicklungsmethoden
+		Testing 
+		Projekteigenschaften
+			Modifizierbarkeit, Portability, Documentation 
+
+
+Attribute:
+	Arbeits-Geschwindigkeit 
+	Sauberes Arbeiten 
+	Kommunikationsfähigkeit
+	Stress Resistenz 
+	Frust Toleranz 
+	Lernbereitschaft 
+	Lerngeschwindigkeit 
+
+
+Statuswerte:
+	Grundproduktivität 
+	Aktuelle Produktivität 
+	Zufriedenheit 
+	Stress
+	Fehler Wahrscheinlichkeit 
+
+Eigenschaften/Traits:
+	Zufällig 
+
+Perks:
+	Werden erworben 
+	Kann schon zufällige haben
+
+Rollen:
+	Entwickler 
+	Designer 
+	Projektmanager 
+	
+	Rollen Modifikatioren: 
+		Junior
+		ohne prefix
+		Senior 
+		(Lead ist kein Modifikator sondern eine besondere Rolle in einem Projekt) 
+
+Angestellten Verhältnis:
+	Vollzeit 
+	Teilzeit 
+	Freier Mitarbeiter 
+	Azubi
+	Werkstudent
+	Praktikant 
+
+
+
+Work-Life-Balance-Package: ?
+
+Hat Vertrag mit Firma
+	Gehalt: x€
+	Rolle (inklusive Modifikator)
+	Angestellten-Verhältnis

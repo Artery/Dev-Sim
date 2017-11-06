@@ -1,0 +1,11 @@
+Namen
+
+Kann Firma oder Person sein, hat aber keine Auswirkungen
+
+Hat Zufriedenheitswert bestimmt zum einen wie hoch die Wahrscheinlichkeit ist nochmal angeheuert zu werden und die wie eher sich der Kunde auf Änderungen oder gerissene deadlines einstellt 
+Der Wert ist die allgemeine Zufriedenheit und beeinflusst hauptsächlich das erste. 
+Aber hat Einfluss auf die Projekt Zufriedenheit 
+
+Hat Eigenschaften/Traits z. B. Ändert oft spec, oder pocht auf deadlines, oder bezahlt großzügig etc 
+
+Hat Loyalitätswert, welcher grundsätzlich angibt, wie hoch die Chance auf weitere Zusammenarbeiten sind. Zufriedenheit und Anzahl an gemeinsamer Projekte hat hierauf Einfluss
