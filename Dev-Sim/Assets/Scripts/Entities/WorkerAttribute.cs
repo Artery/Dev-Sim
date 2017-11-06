@@ -11,14 +11,35 @@ using UnityEngine;
 public class WorkerAttribute
 {
     #region Fields
+
+    private enWorkerAttributeType m_Type;
+    private string m_Name;
+    private float m_Level;
+
     #region SerializedFields
     #endregion
     #endregion
 
     #region Properties
-    public enWorkerAttributeType Type { get; protected set; }
-    public string Name { get; protected set; }
-    public float Level { get; protected set; }
+
+    public enWorkerAttributeType Type
+    {
+        get { return m_Type; }
+        set { m_Type = value; }
+    }
+
+    public string Name
+    {
+        get { return m_Name; }
+        set { m_Name = value; }
+    }
+
+    public float Level
+    {
+        get { return m_Level; }
+        set { m_Level = value; }
+    }
+
     #endregion
 
     #region Constructors

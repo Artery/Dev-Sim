@@ -30,6 +30,7 @@ public class Project
     //ProductProperties?
     private double m_ErrorRate;
     private double m_CurrentCustomerStatisfaction;
+    private Customer m_InvolvedCustomer;
 
     #region SerializedFields
     #endregion
@@ -106,6 +107,11 @@ public class Project
     {
         get { return m_CurrentCustomerStatisfaction; }
         set { m_CurrentCustomerStatisfaction = value; }
+    }
+    public Customer InvolvedCustomer
+    {
+        get { return m_InvolvedCustomer; }
+        set { m_InvolvedCustomer = value; }
     }
 
     #endregion

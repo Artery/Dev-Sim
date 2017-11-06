@@ -16,8 +16,8 @@ class ModeOfEmployment
     #endregion
 
     #region Properties
-    public enModeOfEmployment Type { get; protected set; }
-    public string Name { get; protected set; }
+    public enModeOfEmployment Type { get;  set; }
+    public string Name { get;  set; }
     #endregion
 
     #region Constructors

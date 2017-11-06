@@ -16,7 +16,7 @@ public class WorkerRole
     #endregion
 
     #region Properties
-    public enWorkerRoleType Type { get; protected set; }
+    public enWorkerRoleType Type { get;  set; }
     public enWorkerRoleModificator Modificator { get; set; }
     public string Name { get; set; }
     #endregion

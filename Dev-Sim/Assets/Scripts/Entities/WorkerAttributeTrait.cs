@@ -15,7 +15,7 @@ public class WorkerAttributeTrait : Trait
     #endregion
 
     #region Properties
-    public WorkerAttribute Attribute { get; protected set; }
+    public WorkerAttribute Attribute { get;  set; }
     #endregion
 
     #region Constructors

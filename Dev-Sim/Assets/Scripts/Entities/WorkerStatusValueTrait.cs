@@ -15,7 +15,7 @@ public class WorkerStatusValueTrait
     #endregion
 
     #region Properties
-    public WorkerStatusValue StatusValue { get; protected set; }
+    public WorkerStatusValue StatusValue { get;  set; }
     #endregion
 
     #region Constructors

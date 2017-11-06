@@ -15,13 +15,13 @@ class EmploymentContract
     #endregion
 
     #region Properties
-    public Worker Employee { get; protected set; }
-    public Company Employer { get; protected set; }
-    public WorkerRole Role { get; protected set; }
-    public ModeOfEmployment ModeOfEmployment { get; protected set; }
-    public int Salary { get; protected set; }
+    public Worker Employee { get;  set; }
+    public Company Employer { get;  set; }
+    public WorkerRole Role { get;  set; }
+    public ModeOfEmployment ModeOfEmployment { get;  set; }
+    public int Salary { get;  set; }
     //In months, -1 is open-ended
-    public int ContractDuration { get; protected set; }
+    public int ContractDuration { get;  set; }
     #endregion
 
     #region Constructors

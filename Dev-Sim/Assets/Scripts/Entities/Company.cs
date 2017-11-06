@@ -8,7 +8,7 @@ using UnityEngine;
 /// <summary>
 /// Class summary goes here...
 /// </summary>
-public class Company : MonoBehaviour
+public class Company// : MonoBehaviour
 {
     #region Fields
     private string m_Name;
@@ -31,52 +31,52 @@ public class Company : MonoBehaviour
     public string Name
     {
         get { return m_Name; }
-        protected set { m_Name = value; }
+        set { m_Name = value; }
     }
     public float Reputation
     {
         get { return m_Reputation; }
-        protected set { m_Reputation = value; }
+        set { m_Reputation = value; }
     }
     public float WorkingAtmosphere
     {
         get { return m_WorkingAtmosphere; }
-        protected set { m_WorkingAtmosphere = value; }
+        set { m_WorkingAtmosphere = value; }
     }
     public List<CompanyTrait> Traits
     {
         get { return m_Traits; }
-        protected set { m_Traits = value; }
+        set { m_Traits = value; }
     }
     public float CreditWorthiness
     {
         get { return m_CreditWorthiness; }
-        protected set { m_CreditWorthiness = value; }
+        set { m_CreditWorthiness = value; }
     }
     public Dictionary<enField, List<Tool>> Tools
     {
         get { return m_Tools; }
-        protected set { m_Tools = value; }
+        set { m_Tools = value; }
     }
     public Finances Finances
     {
         get { return m_Finances; }
-        protected set { m_Finances = value; }
+        set { m_Finances = value; }
     }
     public List<Worker> Employees
     {
         get { return m_Employees; }
-        protected set { m_Employees = value; }
+        set { m_Employees = value; }
     }
     public List<Project> Projects
     {
         get { return m_Projects; }
-        protected set { m_Projects = value; }
+        set { m_Projects = value; }
     }
     public List<Product> Products
     {
         get { return m_Products; }
-        protected set { m_Products = value; }
+        set { m_Products = value; }
     }
     #endregion
 

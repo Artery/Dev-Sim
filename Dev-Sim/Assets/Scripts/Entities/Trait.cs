@@ -15,8 +15,8 @@ public abstract class Trait
     #endregion
 
     #region Properties
-    public string Name { get; protected set; }
-    public float Modifier { get; protected set; }
+    public string Name { get;  set; }
+    public float Modifier { get;  set; }
     #endregion
 
     #region Constructors

@@ -15,9 +15,9 @@ public class Perk
     #endregion
 
     #region Properties
-    public string Name { get; protected set; }
-    public float Modifier { get; protected set; }
-    public Trait Trait { get; protected set; }
+    public string Name { get;  set; }
+    public float Modifier { get;  set; }
+    public Trait Trait { get;  set; }
     #endregion
 
     #region Constructors
