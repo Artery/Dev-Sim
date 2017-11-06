@@ -61,3 +61,6 @@ Dev-Sim/Library/unity editor resources
 Dev-Sim/Library/FacebookSDK/
 Dev-Sim/Library/UnityAssemblies/
 *.log
+Dev-Sim/Library/CurrentLayout.dwlt
+Dev-Sim/Library/ShaderCache.db
+Dev-Sim/Library/LastSceneManagerSetup.txt
