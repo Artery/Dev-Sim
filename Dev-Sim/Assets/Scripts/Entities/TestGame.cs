@@ -12,9 +12,14 @@ public class TestGame : MonoBehaviour
 {
     #region Fields
 
-    #region SerializedFields
+    public static TestGame Instance;
 
+    #region SerializedFields
+    [SerializeField]
     private Company m_Player;
+
+    [SerializeField]
+    private ProjectCreationManager m_ProjectCreationManager;
     #endregion
 
     #endregion
@@ -33,6 +38,7 @@ public class TestGame : MonoBehaviour
 
     void Awake()
     {
+        Instance = this;
         var playerWorker = new Worker()
                            {
                                Name = "Johannes Winkler",
@@ -337,7 +343,13 @@ public class TestGame : MonoBehaviour
 
     public void CreateNewProject()
     {
+        m_ProjectCreationManager.StartProjectCreation();
+    }
 
+    public void AddNewProject(Project project)
+    {
+        m_Player.Projects.Add(project);
+        Debug.Log(project.WorkingTitle);
     }
     #endregion
 

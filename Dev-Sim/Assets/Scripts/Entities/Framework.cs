@@ -7,20 +7,20 @@ using Enums;
 /// <summary>
 /// Class summary goes here...
 /// </summary>
-public class DevelopmentMethod
+public class Framework
 {
     #region Fields
 
-    private enDevelopmentMethodType m_Type;
+    private enFrameworkType m_FrameworkType;
 
     #endregion
 
     #region Properties
 
-    public enDevelopmentMethodType Type
+    public enFrameworkType FrameworkType
     {
-        get { return m_Type; }
-        set { m_Type = value; }
+        get { return m_FrameworkType; }
+        set { m_FrameworkType = value; }
     }
 
     #endregion

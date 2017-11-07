@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using Enums;
 using UnityEngine;
 
 /// <summary>
@@ -13,21 +14,21 @@ public class Project
     #region Fields
 
     private string m_WorkingTitle;
-    private ProjectCosts m_EstimatedProjectCosts;
-    private ProjectCosts m_FinalProjectCosts;
-    private ProjectDuration m_EstimatedDuration;
-    private ProjectDuration m_ActualDuration;
-    private List<Worker> m_AssignedWorkers;
-    //Bereich? z. B. App, Website oder Desktop Anwendung
-    private List<ProjectComponent> m_ProjectComponents;
-    private List<Tool> m_Tools;
-    //Technologien?
-    private DevelopmentMethod m_DevelopmentMethod;
-    private ProjectSpecification m_Specification;
-    private ProjectEffort m_EstimatedEffort;
-    private ProjectEffort m_ResidualEffort;
+    private ProjectCosts m_EstimatedProjectCosts = new ProjectCosts();
+    private ProjectCosts m_FinalProjectCosts = new ProjectCosts();
+    private ProjectDuration m_EstimatedDuration = new ProjectDuration();
+    private ProjectDuration m_ActualDuration = new ProjectDuration();
+    private List<Worker> m_AssignedWorkers = new List<Worker>();
+    private enProjectType m_ProjectType;
+    private enPlattform m_Plattform;
+    private List<ProjectComponent> m_ProjectComponents = new List<ProjectComponent>();
+    private List<Framework> m_Frameworks = new List<Framework>();
+    private List<Tool> m_Tools = new List<Tool>();
+    private DevelopmentMethod m_DevelopmentMethod = new DevelopmentMethod();
+    private ProjectSpecification m_Specification = new ProjectSpecification();
+    private ProjectEffort m_EstimatedEffort = new ProjectEffort();
+    private ProjectEffort m_ResidualEffort = new ProjectEffort();
     //Quality?
-    //ProductProperties?
     private double m_ErrorRate;
     private double m_CurrentCustomerStatisfaction;
     private Customer m_InvolvedCustomer;
@@ -68,10 +69,25 @@ public class Project
         get { return m_AssignedWorkers; }
         set { m_AssignedWorkers = value; }
     }
+    public enProjectType ProjectType
+    {
+        get { return m_ProjectType; }
+        set { m_ProjectType = value; }
+    }
+    public enPlattform Plattform
+    {
+        get { return m_Plattform; }
+        set { m_Plattform = value; }
+    }
     public List<ProjectComponent> ProjectComponents
     {
         get { return m_ProjectComponents; }
         set { m_ProjectComponents = value; }
+    }
+    public List<Framework> Frameworks
+    {
+        get { return m_Frameworks; }
+        set { m_Frameworks = value; }
     }
     public List<Tool> Tools
     {
