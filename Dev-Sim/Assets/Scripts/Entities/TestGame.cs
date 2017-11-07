@@ -308,9 +308,10 @@ public class TestGame : MonoBehaviour
         var firstProject = new Project()
                            {
                                 WorkingTitle = "TestProject",
-                                AssignedWorkers = new List<Worker>()
+                                AssignedWorkers = new Dictionary<enWorkerRoleType, List<Worker>>()
                                                   {
-                                                      playerWorker, coFounderWorker
+                                                      {enWorkerRoleType.PROJECTMANAGER, new List<Worker>() {playerWorker}},
+                                                      {enWorkerRoleType.DEVELOPER, new List<Worker>() {playerWorker, coFounderWorker}},
                                                   },
                                 ProjectComponents = new List<ProjectComponent>() { },
                                 Tools = new List<Tool>() { },
@@ -343,7 +344,7 @@ public class TestGame : MonoBehaviour
 
     public void CreateNewProject()
     {
-        m_ProjectCreationManager.StartProjectCreation();
+        m_ProjectCreationManager.StartProjectCreation(m_Player);
     }
 
     public void AddNewProject(Project project)

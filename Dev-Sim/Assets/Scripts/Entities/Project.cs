@@ -18,7 +18,7 @@ public class Project
     private ProjectCosts m_FinalProjectCosts = new ProjectCosts();
     private ProjectDuration m_EstimatedDuration = new ProjectDuration();
     private ProjectDuration m_ActualDuration = new ProjectDuration();
-    private List<Worker> m_AssignedWorkers = new List<Worker>();
+    private Dictionary<enWorkerRoleType, List<Worker>> m_AssignedWorkers = new Dictionary<enWorkerRoleType, List<Worker>>();
     private enProjectType m_ProjectType;
     private enPlattform m_Plattform;
     private List<ProjectComponent> m_ProjectComponents = new List<ProjectComponent>();
@@ -64,7 +64,7 @@ public class Project
         get { return m_ActualDuration; }
         set { m_ActualDuration = value; }
     }
-    public List<Worker> AssignedWorkers
+    public Dictionary<enWorkerRoleType, List<Worker>> AssignedWorkers
     {
         get { return m_AssignedWorkers; }
         set { m_AssignedWorkers = value; }

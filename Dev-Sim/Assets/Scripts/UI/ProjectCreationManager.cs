@@ -15,6 +15,7 @@ public class ProjectCreationManager : MonoBehaviour
 
     public enProjectCreationStage m_CurrentState = enProjectCreationStage.NONE;
     private Project m_NewProject;
+    private Company m_Company;
 
     #region SerializedFields
     [SerializeField]
@@ -32,6 +33,12 @@ public class ProjectCreationManager : MonoBehaviour
     [SerializeField]
     private List<Slider> m_SpecificationSliders;
 
+    [SerializeField]
+    private Dropdown m_ProjectManager;
+    [SerializeField]
+    private List<Dropdown> m_Developers;
+    [SerializeField]
+    private List<Dropdown> m_Designers;
 
     [SerializeField]
     private Text m_ProjectName;
@@ -40,7 +47,6 @@ public class ProjectCreationManager : MonoBehaviour
     #endregion
 
     #region Properties
-
     #endregion
 
     #region Constructors
@@ -167,7 +173,23 @@ public class ProjectCreationManager : MonoBehaviour
 
     public void ConfirmRoles()
     {
-        ShowNextStage();
+        if (m_ProjectManager.value > 0 && m_Developers.Exists(dev => dev.value > 0))
+        {
+            m_NewProject.AssignedWorkers[enWorkerRoleType.PROJECTMANAGER] =
+                new List<Worker>() {m_Company.Employees.ElementAt(m_ProjectManager.value - 1) };
+
+            m_NewProject.AssignedWorkers[enWorkerRoleType.DEVELOPER] = new List<Worker>();
+            m_Developers.Where(dev => dev.value > 0).ToList().
+                ForEach(dev => m_NewProject.AssignedWorkers[enWorkerRoleType.DEVELOPER].
+                Add(m_Company.Employees.ElementAt(dev.value - 1)));
+
+            m_NewProject.AssignedWorkers[enWorkerRoleType.DESIGNER] = new List<Worker>();
+            m_Designers.Where(designer => designer.value > 0).ToList().
+                         ForEach(designer => m_NewProject.AssignedWorkers[enWorkerRoleType.DESIGNER].
+                                                     Add(m_Company.Employees.ElementAt(designer.value - 1)));
+
+            ShowNextStage();
+        }
     }
 
     public void ConfirmEstimationsSummary()
@@ -189,11 +211,12 @@ public class ProjectCreationManager : MonoBehaviour
     }
 
 
-    public void StartProjectCreation()
+    public void StartProjectCreation(Company company)
     {
         m_NewProject = new Project();
         m_Panels.ElementAt(0).SetActive(true);
         m_CurrentState = 0;
+        m_Company = company;
     }
 
     public void ShowNextStage()
@@ -234,6 +257,25 @@ public class ProjectCreationManager : MonoBehaviour
                 break;
             case enProjectCreationStage.FRAMEWORKS:
                 m_FrameworksPanels.ElementAt((int)m_NewProject.ProjectType).SetActive(activatePanel);
+                break;
+            case enProjectCreationStage.ROLES:
+                if (activatePanel)
+                {
+                    m_ProjectManager.AddOptions(m_Company.Employees.Select(worker => worker.Name).ToList());
+                    m_Developers.ForEach(developer => developer.AddOptions(m_Company.Employees.Select(worker => worker.Name).ToList()));
+                    m_Designers.ForEach(designer => designer.AddOptions(m_Company.Employees.Select(worker => worker.Name).ToList()));
+                }
+                else
+                {
+                    m_ProjectManager.ClearOptions();
+                    m_ProjectManager.AddOptions(new List<string>() {"None"});
+
+                    m_Developers.ForEach(developer => developer.ClearOptions());
+                    m_Developers.ForEach(developer => developer.AddOptions(new List<string>() { "None" }));
+
+                    m_Designers.ForEach(designers => designers.ClearOptions());
+                    m_Designers.ForEach(designers => designers.AddOptions(new List<string>() { "None" }));
+                }
                 break;
             default:
                 break;
