@@ -206,6 +206,7 @@ public class ProjectCreationManager : MonoBehaviour
     {
         m_Panels.ElementAt((int)m_CurrentState).SetActive(false);
         m_CurrentState = enProjectCreationStage.NONE;
+        CleanUpUI();
 
         TestGame.Instance.AddNewProject(m_NewProject);
     }
@@ -217,6 +218,13 @@ public class ProjectCreationManager : MonoBehaviour
         m_Panels.ElementAt(0).SetActive(true);
         m_CurrentState = 0;
         m_Company = company;
+    }
+
+    public void CancelProjectCreation()
+    {
+        m_Panels.ElementAt((int)m_CurrentState).SetActive(false);
+        m_CurrentState = enProjectCreationStage.NONE;
+        CleanUpUI();
     }
 
     public void ShowNextStage()
@@ -279,6 +287,41 @@ public class ProjectCreationManager : MonoBehaviour
                 break;
             default:
                 break;
+        }
+    }
+
+    private void CleanUpUI()
+    {
+        foreach (var panel in m_Panels)
+        {
+            panel.GetComponentsInChildren<InputField>().ToList().ForEach(input => input.text = string.Empty);
+            panel.GetComponentsInChildren<Toggle>().ToList().ForEach(toggle => toggle.isOn = false);
+            panel.GetComponentsInChildren<Slider>().ToList().ForEach(slider => slider.value = 0);
+            panel.GetComponentsInChildren<Dropdown>().ToList().ForEach(drowpdown => drowpdown.value = 0);
+        }
+
+        foreach (var panel in m_PlattformPanels)
+        {
+            panel.GetComponentsInChildren<InputField>().ToList().ForEach(input => input.text = string.Empty);
+            panel.GetComponentsInChildren<Toggle>().ToList().ForEach(toggle => toggle.isOn = false);
+            panel.GetComponentsInChildren<Slider>().ToList().ForEach(slider => slider.value = 0);
+            panel.GetComponentsInChildren<Dropdown>().ToList().ForEach(drowpdown => drowpdown.value = 0);
+        }
+
+        foreach (var panel in m_ComponentsPanels)
+        {
+            panel.GetComponentsInChildren<InputField>().ToList().ForEach(input => input.text = string.Empty);
+            panel.GetComponentsInChildren<Toggle>().ToList().ForEach(toggle => toggle.isOn = false);
+            panel.GetComponentsInChildren<Slider>().ToList().ForEach(slider => slider.value = 0);
+            panel.GetComponentsInChildren<Dropdown>().ToList().ForEach(drowpdown => drowpdown.value = 0);
+        }
+
+        foreach (var panel in m_FrameworksPanels)
+        {
+            panel.GetComponentsInChildren<InputField>().ToList().ForEach(input => input.text = string.Empty);
+            panel.GetComponentsInChildren<Toggle>().ToList().ForEach(toggle => toggle.isOn = false);
+            panel.GetComponentsInChildren<Slider>().ToList().ForEach(slider => slider.value = 0);
+            panel.GetComponentsInChildren<Dropdown>().ToList().ForEach(drowpdown => drowpdown.value = 0);
         }
     }
     #endregion
